@@ -89,3 +89,5 @@ availableSecrets:
     env: 'SSH_KEY'
 
 # [END cloudbuild-trigger-cd]
+options:
+  logging: CLOUD_LOGGING_ONLY
