@@ -44,7 +44,7 @@ steps:
   args:
   - '-c'
   - |
-    git clone git@github.com:stacksimplify/terraform-gcp-gke-k8s-devops.git
+    git clone git@github.com:jenbops/terraform-gcp-gke-k8s-devops.git
     cd terraform-gcp-gke-k8s-devops && \
     git config user.email $(gcloud auth list --filter=status:ACTIVE --format='value(account)')
   volumes:
